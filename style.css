@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+section{
+    min-height:100vh ;
+    background-image:url("GettyImages-150127577-58f920153df78ca159d41100.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 40px;
+    font-size: inline;
+    color: rgb(9, 27, 67);
+    text-decoration-style: wavy;
+}
+.icon {
+    font-family: 'Akronim';
+    font-size: 50px;
+    margin-left: -50px;
+    margin-top: 20px;
+    color:rgb(9, 27, 67);
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: burlywood;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: rgb(20, 31, 118);
+    transition: 0.5s ease;
+}
+nav ul li.active{
+    background-color: rgba(43, 208, 226, 0.366);
+}
+.article{
+    width: 50%;
+    margin-top: 180px;
+    margin-left: 140px;
+    text-align: center;
+    transform: translate(25vh);
+}
+.article h1{
+    font-size: 36px;
+    color: rgb(20, 31, 118);
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom:25px;
+}
+.article p{
+    font-size: 18px;
+    color:black;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article.btn{
+    color:blueviolet;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blue;
+}
+.article.btn:hover{
+    background-color: blue;
+    transition: 0.5s ease;
+}
+
+.article a {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: beige;
+}
+
+.article a:hover {
+    background-color: aliceblue;
+    color: black;
+    transition: 0.4 ease;
+}
